@@ -1,0 +1,26 @@
+schema:
+  schema_id: vi_keyboard
+  name: Vietnamese Telex
+  version: '0.1.0'
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [VI, EN]
+
+engine:
+  processors:
+    - lua_processor@*vi_keyboard*processor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - lua_translator@*vi_keyboard*translator
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_
+  initials: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_
+  delimiter: ''
+
+menu:
+  page_size: 1

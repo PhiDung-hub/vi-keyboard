@@ -4,7 +4,7 @@ Type Vietnamese Telex and English in the same text field. The Rime schema runs l
 
 ## Install
 
-Download and extract `vi-keyboard-0.1.0.zip` from the [release](https://github.com/PhiDung-hub/vi-keyboard/releases/tag/0.1.0).
+Download and extract `vi-keyboard-0.1.1.zip` from the [latest release](https://github.com/PhiDung-hub/vi-keyboard/releases/latest).
 
 | Platform | Prerequisites | Rime user folder |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ Download and extract `vi-keyboard-0.1.0.zip` from the [release](https://github.c
 ## Type
 
 - `Tieengs Vieejt` gives `Tiếng Việt`. Telex uses `aa`, `aw`, `ee`, `oo`, `ow`, `uw`, and `dd` for letter shapes and `s`, `f`, `r`, `x`, and `j` for tones. `z` clears marks while composing.
-- `this is a test` stays `this is a test`. The keyboard preserves known English words regardless of casing and checks whether other tokens form a Vietnamese syllable. Unlisted English words that happen to look like Telex can still convert.
+- `this is a test` stays `this is a test`. The keyboard preserves known English words regardless of casing and converts other tokens only when they form a complete Vietnamese syllable, so `reform`, `params`, and `nextjs` stay as typed. An incomplete syllable also stays as typed. Unlisted English words that spell a valid syllable in Telex can still convert.
 - Press **Shift+Space** to force the Vietnamese reading of the current word and add a space. For example, `as` normally stays `as`, and `as` followed by Shift+Space gives `á`.
 - Press **Ctrl+Shift+Space** to switch between Vietnamese and plain English while this schema is active. **Esc** cancels the current word. Backspace edits its raw keystrokes.
 
@@ -37,4 +37,4 @@ Download and extract `vi-keyboard-0.1.0.zip` from the [release](https://github.c
 python tests/integration.py --library PATH --shared-data PATH --work-dir NEW_PATH [--lua-module PATH]
 ```
 
-The code is MIT licensed. The English exceptions are derived from the [SCOWL en_US Hunspell dictionary, version 2026.02.25](https://github.com/en-wl/wordlist/releases/tag/rel-2026.02.25). The project filters the dictionary to words that can collide with Telex, and adds a few typing and contraction exceptions. See [SCOWL's terms](licenses/SCOWL.txt).
+The code is MIT licensed. The English exceptions are derived from the [SCOWL en_US Hunspell dictionary, version 2026.02.25](https://github.com/en-wl/wordlist/releases/tag/rel-2026.02.25). The project filters the dictionary to words that can collide with Telex, and adds contractions plus common names, abbreviations, and code words such as `usr`, `sys`, and `deps`. See [SCOWL's terms](licenses/SCOWL.txt).

@@ -1,68 +1,47 @@
 return [[
 aren couldn didn doesn don hadn hasn haven isn mightn mustn needn oughtn reset shan shouldn wasn weren won wouldn
-afar aims air airs ajar ans arcs arm arms arson arts arum arums as asap asp aux aw awn awns
-ax axing axis axon axons baa baas bairn bairns baits bangs bans baps bar barf barfing barfs
-baring barn barns baron barons bars basic basin bast bats bays bee beech beef beefs been
-beep beeps beer beers bees beet beets berets berm berms beset besom besot best bets bias
-bins bis bits boar boars boas boast boats boings bongs boo booing boom booms boon boons boor
-boors boos boost boot boots booze boozer boozers boozes bops borax bore bores boring born
-boron borzoi borzois bosom bots bow bowing bows box boxer boxers boxes boxing bumf bums
-bungs buns bur burn burns burps burs bursa bursar bursars burst bury bus busing bust busy
-buts buys cairn cairns cams cans caps car carats caring carom caroms carps cars carts casa
-cast cats caw caws cays certs chains chair chairs chaos chaps char charm charms chars charts
-chary chasm chats cheep cheeps cheer cheers chef chefs chest chiefer chiefest chins chips
-chirps chis chits chocs choir choirs chops chore chores chose chosen chow chowing chows
-chums churn churns cir cis coast coats coax coaxing coif coifs coins coir cons coo cooing
-coon coons coop coops coos coot coots cops cor core cores coring corm corms corn corns corps
-corsair corsairs corset cos cost cots cow cowing cows cox coxes coxing cums cups cur curing
-curs cusp cuts cyst dais dams dangs daring darn darns darts dawn dawns days dd dding deem
-deems deep deeps deer def defer defers defrost dens deserts dims dings dins dips dis disc
-dist docs doer doers does dojo dongs dons doom dooms door doors dorm dorms dos dose dosing
-dots down downs dox doxes doxing dungs duns during dust emf ems ens eons er ere erst esp est
-ex execs exerts exes exon exons gains gaits gangs gaps gar gars gas gasp gawp gawps gays gee
-gees geezer geezers gems germ germs gets ghats ghee ghost gifts gins giro giros girts gist
-gits goats goer goers goes gofer gofers goings gongs goo goof goofing goofs goon goons goop
-gore gores gorps gorse gosh gown gowns gums guns gust guts guys gyms gyps hafts hair hairs
-haj hams hangs harm harms harps harts has hasp hats haw haws hays hefts hems hens her here
-hero heron herons hers hertz hex hexes hips his hist hits hoarfrost hoary hoax hoaxing hoer
-hoers hoes hoist hons hooch hoof hoofing hoofs hoop hoops hoot hoots hops hora horas horn
-horns horse hos hose hosp host hots how hows hums hurts huts if ifs inf ins is ish ism its
-ix karats karts keen keens keep keeps kens khans kings kips kirsch kits koans lair lairs
-lams laps larynx last law lawn lawns laws lax lays lee leech leer leers lees lefts lens lest
-lets lexer lexers liar liars liefer liefest lifts lings lips lira lisp list lix loaf loafing
-loafs loans lochs lofts loins longs loo loom looms loon loons loop loops loos loosing loot
-loots lops lore loris lorn lose loser losers losing lost lots low lowing lows lox lungs lust
-lux lynx macs maims mains major majors mams mans maps mar mars marts mas masa masc mason
-mast mats maw maws max maxi maxim maxims maxing maxis meet meets mere meres merest meson
-mics minx misc mist mix moans moats moist mojo moms moo mooch mooing moon moons moor mooring
-moors moos moot moots mops moray morays more mores morn morns moron morons mos mosaic most
-mots mow mowing mows mus music musing must naan naans nah naif naifs naps narcs nary nays
-nee nest nets nips nits nix noir noirs noon nor nori noris norm norms nos nose now nowt npm
-nuns nursing nus nuts oaf oafs oar oaring oars oats of oms oops ooze oozes ops or orcs ore
-ores orzo ow owing own owns ox oxen pains pair pairs pangs pans paps par para paras paring
-pars parson parts pas past pats paw pawn pawns paws pays pecs pee peen peens peep peeps peer
-peers pees pens peons peps per perform performs perm perms perps person peso pest pets
-pharynx phis phys pics pings pins pips pis pits pix poems poets poms pongs poo pooch poof
-poofs pooing poop poops poor poos pops pore pores porn ports pose poser posers posit post
-pots pow pox poxes puns pups puree purees purism purist pus puts pyx quarts quartz quasar
-quasars quasi quays queen queens queer queers ques quest quins quips quirts quits quoins
-quoits rafts rains rams raps rasp rats raw rays reef reefs ref refer refers refs rems reps
-res resp rest rifts rims rings rips roams roans roar roaring roars roast roes roof roofing
-roofs room rooms roost root roots rosary rose rosin rots row rowing rows ruins rums rungs
-runs rust ruts sacs sans saps saran sari sarin saris sarong sarongs saw saws sax says secs
-see seem seems seen seep seeps seer seers sees sere serest serf serfs sets sex sexes sics
-sifts sims sings sins sips sir sirs sis sits six soaps soar soaring soars sofa sofas songs
-sons soon soot sops sore sores sorest sorts sots sow sowing sown sows suits sums suns sups
-surf surfing surfs tams tangs tans taps tar taring tarn tarns taro taros tarots tarps tars
-tarsi tarts tats taus tax taxa taxi taxing taxis taxon techs tee teem teems teen teens tees
-term terms tern terns terse terser test texts thaw thaws thee thefts there therm therms
-these things thins thirst this tho thongs thorax thorn thorns those thus thx tics tings tins
-tips tits toast toes toms tongs tons too toot toots tops tor tore torn tors torso torts tots
-tow towing town towns tows toxin toxins trains traits trams trans traps trays tree trees
-trims trips troop troops trots trow trowing trows truism trust tryst tsx tufts tums tuns
-tureen tureens turf turfing turfs turfy turn turns turps tuts tux ups urn urns us using vacs
-vans var vars vary vast vats veep veeps veer veers verse verso vest vets vex vexes virus
-visa vow vowing vows w wafts wan war warm warms warn warns warps wars warts was wasp wax win
-wing wings wins wisp wist wit wits wiz wow wowing wows wraps wring wrings wrist writs wrung
-wt wurst xerox xis xix xor yr yrs
+air airs ans ar ari arm arn as asc asp ast auf aus aux aw awn awns ax bangs bans baps bar
+barf barfs barn bars bast bats bays bee beef beefs been beeps beer beers bees beets berm
+best bets bias bins bis bits boar boars boas boast boats bongs boo boom booms boon boons
+boor boors boos boost boots booze boozer boozers boozes bops bora bore born bots bow bows
+box boxen buf bumf bums bungs buns bur burn burs bursa burst bury bus bust busy buts buys
+cams cans caps car cars cary cast cats cays chair chairs chaos chaps char charm chars chary
+chasm chats cheeps cheer cheers chef chefs cher chest chins chips chis chits chocs choir
+choirs choo chops chore chose chosen chow chown chows chums churn coast coats coax coif
+coifs coir confs conj cons coo coon coons coops coos coots cops cor cora core corm corn
+corset cos cosmjs cost cots cow cows cox cums cups cur curs cusp cuts dais dams dangs darn
+das dawn dawns dayjs days dd deem deems deeps deer def defs dens deps der des desc dest dex
+dims dins dips dir dirs dis dist docs doer doers does dongs dons doo doom dooms door doors
+dora dorm dos dose dost dots down downs dox dungs duns dust ecs ef emf ems ens er erm erst
+es esp est ex gangs gaps gar gars gary gas gasp gawps gays ghee gins giro gist gits goats
+goer goers goes gongs goo goof goofs goon goons gore gorse gown gowns gums guns gus gust
+guts guys hair hairs haj hams hangs harm has hasp hats hays hee hems hens her hero hers hex
+hips his hist hits hoary hoax hoer hoers hoes hons hoof hoofs hoops hoots hops hora horn
+hors horse hos hose hosp host hots how hows hums huts if ifs inf ins ipfs ips ir ira irs is
+isa ism isp its ix kaos kari keen keens keeps kens khans kips kira kirsch kits koans koji
+koo koran korm lair lairs lams laps last lawn lawns lax lays lee leer leers lees lens les
+lest lets liar liars lips lira lisa lisp list lix loaf loafs loans lois longs loo loom looms
+loon loons loops loos loots lops lore lori lorn los lose lost lots low lows lox luis lungs
+lust lux macs mams mans maps mar mari mars mary mas masc mast mats max maxi meets mens mins
+minx mist mix moans moats moms moo moon moons moor moors moos moots mops moran moray more
+morn morse mos most mots mow mows mus must mux naan naans naif naifs naps nary nays nee nero
+nest nets nips nits nix noir noirs noon nor nora nori norm nos nose now nums nuns nus nuts
+oaf oafs oar oars oats of oms ons oops ooze oozes ops or ore ori orm os ow own owns ox oxen
+pair pairs pangs pans paps par pars pas paso past pats pawn pawns pays pecs pee peen peens
+peeps peer peers pees pens peps per perf perm peso pest pets phis phys pins pips pis pits
+pix poets poms pongs pons poo poof poofs poops poor poos pops por pore porn pos pose post
+pots pow pox puns pups puree pus puts pyx quasi quays queen queens queer queers ques quest
+quins quips quits raj raju rams raps rasp rats rays reef reefs ref refs rems reps res resp
+rest rims rips roams roans roar roars roast roes roof roofs room rooms roost roots rosa rose
+rosen rots row rows rums rungs runs rust ruts sacs sans saps sari sas sax says secs see seem
+seems seen seeps seer seers sees serf serfs sets sex sexo sims sins sips sir sirs sis sits
+six soaps soar soars sofa songs sons soon sops sora sore sos sots sow sown sows sox sums
+suns sups sur surf surfs suri surya sys tams tangs tans taps tar tarn taro tars tarsi tats
+taus tax taxi tee teem teems teen teens tees tens term tern test tex thats thee therm thins
+thirst this thongs thorn those thus tif tins tips tits toast toes toms tongs tons too toots
+tops tor tore torn tors tos tots tow town towns tows tox trams trans traps trays tree trees
+tres trims trips trojan troops trots trow trows trust tryst tums tuns tureen turf turfs
+turfy turn tuts tux unxz ups ur uri urn urw us usa usr uwsm vacs vans var vars vary vast
+vats veeps veer veers vern verso vest vets vex visa vow vows w war wars was wax wiz wm wn wr
+ws wx xis xix xor yr yrs
 ]]

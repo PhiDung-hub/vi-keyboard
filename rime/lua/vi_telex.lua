@@ -4,13 +4,22 @@ local function word_set(words)
   return set
 end
 
-local onsets = word_set('b c ch d đ g gh gi h k kh l m n ng ngh nh p ph q qu r s t th tr v x')
-local codas = word_set('c ch m n ng nh p t')
+local onsets = word_set('b c ch d đ g gh gi h k kh l m n ng ngh nh p ph qu r s t th tr v x')
+local front_only = word_set('gh ngh')
+local back_only = word_set('c g ng')
 local checked = word_set('c ch p t')
-local nuclei = word_set([[
-  a ai ao au ay ă â âu ây e eo ê êu i ia iê iêu iu o oa oai oao oay oă oe oeo
-  oi ô ôi ơ ơi u ua uâ uây uê ui uô uôi uy uya uyê uyu ư ưa ưi ưu ươ ươi ươu y yê yêu
-]])
+local rhymes = {}
+for nucleus, codas in ([[
+  a=- c ch m n ng nh p t; ă=c m n ng p t; â=c m n ng p t; e=- c m n ng p t; ê=- ch m n nh p t;
+  i=- ch m n nh p t; o=- c m n ng p t; ô=- c m n ng p t; ơ=- m n p t; u=- c m n ng p t;
+  ư=- c m n ng t; y=- ch nh t; iê=c m n ng p t; yê=m n t; uô=c m n ng t; ươ=c m n ng p t;
+  oa=- c ch m n ng nh p t; oă=c m n ng t; oe=- n t; uâ=n ng t; uê=- ch n nh; uy=- ch n nh p t;
+  uyê=n t; ai=-; ao=-; au=-; ay=-; âu=-; ây=-; eo=-; êu=-; ia=-; iêu=-; iu=-; oai=-; oao=-;
+  oay=-; oeo=-; oi=-; ôi=-; ơi=-; ua=-; uây=-; ui=-; uôi=-; uơ=-; uya=-; uyu=-; ưa=-; ưi=-;
+  ưu=-; ươi=-; ươu=-; yêu=-
+]]):gmatch('(%S+)=([^;]+)') do
+  rhymes[nucleus] = word_set(codas)
+end
 local circumflex = {a = 'â', e = 'ê', o = 'ô'}
 local horn = {a = 'ă', o = 'ơ', u = 'ư', ['â'] = 'ă', ['ô'] = 'ơ'}
 local plain = {['â'] = 'a', ['ă'] = 'a', ['ê'] = 'e', ['ô'] = 'o', ['ơ'] = 'o', ['ư'] = 'u', ['đ'] = 'd'}
@@ -81,15 +90,16 @@ local function convert(raw)
   if not raw:match('^[A-Za-z]+$') then return raw end
   local letters, upper = {}, {}
   local tone = 0
+  local previous
   for character in raw:gmatch('.') do
     local key = character:lower()
     local first, last = pronounced_vowels(letters)
     if key == 'd' and #letters == 1 and letters[1] == 'd' then
       letters[1] = 'đ'
     elseif first and tone_keys[key] then
-      if tone == tone_keys[key] then return raw end
+      if tone == tone_keys[key] or (tone ~= 0 and not tone_keys[previous]) then return raw end
       tone = tone_keys[key]
-    elseif circumflex[key] and letters[#letters] == key then
+    elseif circumflex[key] and previous == key and letters[#letters] == key then
       letters[#letters] = circumflex[key]
     elseif key == 'w' and apply_horn(letters, first, last) then
     elseif key == 'z' and first then
@@ -107,6 +117,7 @@ local function convert(raw)
       letters[#letters + 1] = leading_w and 'ư' or key
       upper[#letters] = character ~= key
     end
+    previous = key
   end
 
   local first, last = pronounced_vowels(letters)
@@ -117,8 +128,17 @@ local function convert(raw)
   local onset = table.concat(letters, '', 1, first - 1)
   local nucleus = table.concat(letters, '', first, last)
   local coda = table.concat(letters, '', last + 1)
-  if (onset ~= '' and not onsets[onset]) or not nuclei[nucleus]
-      or (coda ~= '' and not codas[coda]) or (checked[coda] and tone ~= 0 and tone ~= 1 and tone ~= 5) then
+  if onset == 'gi' and nucleus == 'ê' then onset, nucleus = 'g', 'iê' end
+  if nucleus == 'ươ' and coda == '' and (onset == 'h' or onset == 'th') then
+    nucleus = 'uơ'
+    letters[first] = 'u'
+  end
+  local front = nucleus:match('^[ey]') or nucleus:match('^ê') or (nucleus:match('^i') and onset ~= 'g')
+  local codas = rhymes[nucleus]
+  if (onset ~= '' and not onsets[onset]) or (front and back_only[onset]) or (not front and front_only[onset])
+      or not codas or not codas[coda == '' and '-' or coda]
+      or (checked[coda] and tone ~= 1 and tone ~= 5) then
+    if #letters == 1 and tone == 0 and plain[nucleus] then return upper[1] and uppercase[nucleus] or nucleus end
     return raw
   end
 

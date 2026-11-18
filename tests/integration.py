@@ -137,7 +137,7 @@ def run(args):
         finally:
             free_context(c.byref(context))
         assert key(0xff08) == (True, '')  # Backspace
-        assert key(0xff0d) == (False, 'việ')  # Enter
+        assert key(0xff0d) == (False, 'vieej')  # Enter commits an incomplete syllable as typed
         for code, mask in [(0xff09, 0), (0xff51, 0), (ord('c'), 4), (ord('v'), 4), (ord('s'), 8)]:
             assert type_text('tieengs') == ''
             assert key(code, mask) == (False, 'tiếng'), (code, mask)

@@ -441,7 +441,17 @@ thuwowngr	thưởng
 thuws	thứ
 nguowif	người
 duowis	dưới
-khuowr	khưở
+thuowr	thuở
+huow	huơ
+quowr	quở
+thasng gieeng	tháng giêng
+gieets	giết
+khuya
+quyeets ddinhj	quyết định
+huynhj	huỵnh
+bieet
+moot
+vieetj	việt
 qua	qua
 quas nhieeuf	quá nhiều
 quyeenf	quyền
@@ -462,3 +472,14 @@ aaz	a
 asf	à
 muoons vieets	muốn viết
 I can ddawng nhaapj with this account.	I can đăng nhập with this account.
+# English and code words that are not in the dictionary source.
+reform reforms resorts choosing posing
+params param theres liras dexes
+nestjs nextjs dayjs cosmjs ipfs exprs
+tarzan paris susan iran sara perez
+usa usr dir dirs sys os uri buf deps desc dest
+mary lisa gary rosa luis nora boris doris
+wc wp wr ws wx wm wn
+los les des der por sur
+Reform Params USA Mary NextJS
+const params = sys.argv; os.path.join(dir, dest)
